@@ -8,7 +8,7 @@ app = Flask(__name__)
 API_KEY = os.environ['BINANCE_API_KEY']
 API_SECRET = os.environ['BINANCE_API_SECRET']
 client = Client(API_KEY, API_SECRET)
-client.API_URL = 'https://testnet.binance.vision/api'
+
 
 
 USDT_AMOUNT = 100
