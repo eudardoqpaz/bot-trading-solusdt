@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 API_KEY = os.environ['BINANCE_API_KEY']
-API_SECRET = os.environ['BINANCE_SECRET_KEY']
+API_SECRET = os.environ['BINANCE_API_SECRET_KEY']
 client = Client(API_KEY, API_SECRET)
 
 USDT_AMOUNT = 100
